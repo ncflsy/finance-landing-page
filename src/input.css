@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-borderred{
+    @apply border border-rose-500 py-2 px-4 rounded-md hover:bg-red-500 hover:text-white
+}
+.btn-red{
+    @apply border border-rose-500 bg-red-500 hover:bg-white py-2 px-4 rounded-md text-white hover:text-black
+}
+
+
+
